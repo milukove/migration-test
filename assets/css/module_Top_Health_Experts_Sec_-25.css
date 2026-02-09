@@ -1,0 +1,171 @@
+.health-experts25 h3 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+.health-experts25 h2 {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0 0 50px;
+	font-weight:900;
+}
+.health-experts25 h2 span {
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+    text-stroke: 2px #000;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(-1px 1px 1px #0009);
+}
+ .health-experts25 .expertCol {
+    width: 25%;
+}
+/*.health-experts25 .experts-row {
+    display: flex;column-gap:20px;
+    flex-wrap: wrap;/* 
+    margin: 0 -20px; */
+} */
+.health-experts25 .expertCol .expert_image {
+    margin-bottom: 25px;
+}
+.health-experts25 .slick-track {display:flex !important;
+  column-gap: 20px !important;}
+.expertCont p {
+    font-size: 18px;
+    line-height: 24px;
+}
+/* .expertCont .insta-tiktok p {
+    font-size: 12px;
+}
+
+.expertCont .insta-tiktok p img {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.expertCont p strong {
+    color: #000;
+    font-size: 20px;
+}
+.expertCont p.doctor-of-pt {
+    margin: -10px 0 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.expertCont .insta-tiktok {
+    margin-bottom: 15px;
+    margin-top: -10px;
+} */
+.health-experts25 ul.slick-dots li button {
+    padding: 0;
+    font-size: 0;
+    width: 13px;
+    height: 2px;
+    border-radius: 0;
+    display: block;
+    letter-spacing: 0;
+    border: 0;
+    background: #000;
+    opacity: 0.25;
+}
+.health-experts25 ul.slick-dots li.slick-active button {
+  opacity:1;
+}
+.health-experts25 ul.slick-dots{margin-top:20px;margin-bottom:0px;}
+.health-experts25 ul.slick-dots li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.health-experts25 button.slick-arrow {
+    background: transparent url("../img/right-arrow.png") no-repeat 50%;
+    background-size: 20px;
+    bottom: -13px;
+    font-size: 0;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    z-index: 2;
+	transform: scale(-1);
+	opacity:0.25;
+  border:0px;
+}
+.health-experts25 button.slick-prev.slick-arrow {
+   left: -10px;opacity:1;
+}
+.health-experts25 .slick-slide img {
+  border-radius:25px;
+  aspect-ratio: 15 / 16;
+  object-fit: cover;
+} 
+.health-experts25 button.slick-next.slick-arrow {
+    left: 120px;
+    transform: scale(1);
+	opacity:1
+}
+p.testi-heading {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+p.testi-para {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.testi-inner {
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+}
+.testi-inner p strong {
+    font-size: 45px !important;
+}
+.expertCont {
+    padding-top: 20px;
+}
+@media screen and (max-width:767px)
+{
+.health-experts25 h2, .health-experts25 h3 {
+    text-align: left;
+}
+.health-experts25 h3
+{
+	font-size:16px;
+}
+.health-experts25 h2 {
+    padding-bottom: 20px;
+	font-size:32px;
+	margin-bottom:35px;
+}
+.health-experts25 {
+    position: relative;
+    padding-bottom: 70px;
+}
+.health-experts25 ul.slick-dots {
+    bottom: -50px;
+    left: 110px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 9;
+}
+  .health-experts25 button.slick-arrow{bottom:-62px;}
+  .testi-inner {
+    padding: 15px;
+}
+  .testi-inner p{text-align:left;}
+  p.testi-heading {
+    font-size: 20px;
+    text-align: left;
+}
+  p.testi-para{text-align:left;font-size:14px;}
+  .health-experts25 button.slick-next.slick-arrow {
+    left: 290px;
+}
+}
